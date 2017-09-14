@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Developer Info</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Developer Settings</string>
+    <string name="settings_language_label">Language</string>
+    <string name="settings_language_key" translatable="false">language</string>
+    <string name="settings_language_default" translatable="false">@string/settings_language_default_string</string>
+    <string name="settings_language_default_string">java</string>
+    <string name="settings_location_default" translatable="false">@string/settings_location_default_string</string>
+    <string name="settings_location_key" translatable="false">location</string>
+    <string name="settings_location_label">Location</string>
+    <string name="settings_location_default_string">lagos</string>
+    <string name="settings_defaultBehavior_label">Use Default Language And Location</string>
+    <string name="settings_defaultBehavior_key" translatable="false">defaultBehavior</string>
+    <string name="settings_defaultBehavior_default_value" translatable="false">@string/settings_defaultBehavior_yes_value</string>
+    <string name="settings_defaultBehavior_yes_label">Yes</string>
+    <string name="settings_defaultBehavior_yes_value">yes</string>
+    <string name="settings_defaultBehavior_no_label">No</string>
+    <string name="settings_defaultBehavior_no_value">no</string>
+    <string name="no_internet_connection">NO INTERNET CONNECTION</string>
+    <string name="no_developers">No DEVELOPERS</string>
+    <string name="check_developer_string">Check out this awesome developer @ </string>
+    <string name="share">SHARE</string>
+</resources>

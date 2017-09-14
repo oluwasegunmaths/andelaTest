@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_defaultBehavior_labels">
+        <item>@string/settings_defaultBehavior_yes_label</item>
+        <item>@string/settings_defaultBehavior_no_label</item>
+    </string-array>
+
+    <string-array name="settings_default_behavior_values">
+        <item>@string/settings_defaultBehavior_yes_value</item>
+        <item>@string/settings_defaultBehavior_no_value</item>
+    </string-array>
+</resources>

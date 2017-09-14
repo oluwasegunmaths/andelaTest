@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/preference_screen"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/settings_defaultBehavior_yes_value"
+        android:entries="@array/settings_defaultBehavior_labels"
+        android:entryValues="@array/settings_default_behavior_values"
+        android:key="@string/settings_defaultBehavior_key"
+        android:title="@string/settings_defaultBehavior_label" />
+    <EditTextPreference
+        android:defaultValue="@string/settings_language_default"
+        android:inputType="text"
+        android:key="@string/settings_language_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_language_label" />
+    <EditTextPreference
+        android:defaultValue="@string/settings_location_default"
+        android:inputType="text"
+        android:key="@string/settings_location_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_location_label" />
+
+</PreferenceScreen>
